@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container {
+    width: 50vh;
+    height: 50vh;
+    border: 10px solid tomato;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.container div {
+    flex: 0 0 6.25%;
+}
